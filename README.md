@@ -1,9 +1,9 @@
 # Assignment 2 — Genetic Algorithm: Knapsack Problem
 ## Observation Report
 
-**Student Name  :** ___________________________  
-**Student ID    :** ___________________________  
-**Date Submitted:** ___________________________  
+**Student Name  :** ______Dandu Rahul__________ 
+**Student ID    :** ______2310040040___________ 
+**Date Submitted:** ______25-03-2026___________ 
 
 ---
 
@@ -23,13 +23,15 @@ Open `ga_knapsack.py` and read through it. Then answer these questions.
 **Q1. What does the `fitness()` function return? Why does an overweight solution score 0?**
 
 ```
-[ YOUR ANSWER — 2 to 3 sentences ]
+Fitness returns the total value of selected items.
+If weight exceeds capacity, the solution is invalid, so fitness is 0 to penalize it.
 ```
 
 **Q2. What does `tournament_select()` do? Why are higher-fitness individuals more likely to be chosen?**
 
 ```
-[ YOUR ANSWER — 2 to 3 sentences ]
+Tournament selection picks a few individuals randomly and selects the one with highest fitness.
+This increases the probability of choosing stronger solutions.
 ```
 
 **Q3. Look at the `run_ga()` loop. Find this line:**
@@ -39,7 +41,8 @@ next_gen = [best_chromosome[:]]
 **What is this doing? Why is it important to always keep the best solution?**
 
 ```
-[ YOUR ANSWER — 2 to 3 sentences ]
+This copies the best solution into the next generation.
+This is called elitism, which prevents losing the best solution.
 ```
 
 ---
@@ -53,13 +56,13 @@ python ga_knapsack.py
 
 **Fill in this table:**
 
-| Metric | Your result |
-|--------|-------------|
-| Number of generations | |
-| Best value at generation 1 | |
-| Final best value | |
-| Total weight of best solution (kg) | |
-| Is solution valid (Yes / No) | |
+| Metric                             | Your result |
+| ---------------------------------- | ----------- |
+| Number of generations              | 50          |
+| Best value at generation 1         | 60          |
+| Final best value                   | 77          |
+| Total weight of best solution (kg) | 14.4 kg     |
+| Is solution valid (Yes / No)       | Yes         |
 
 **Copy the printed packing list here:**
 ```
