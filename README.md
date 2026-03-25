@@ -1,9 +1,9 @@
 # Assignment 2 — Genetic Algorithm: Knapsack Problem
 ## Observation Report
 
-**Student Name  :** ______Dandu Rahul__________ 
-**Student ID    :** ______2310040040___________ 
-**Date Submitted:** ______25-03-2026___________ 
+**Student Name  :**  Dandu Rahul
+**Student ID    :**  2310040040 
+**Date Submitted:**  25-03-2026
 
 ---
 
